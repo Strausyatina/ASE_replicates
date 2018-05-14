@@ -1,12 +1,12 @@
 # Prerequisites as input:
 
-	* Reference genome
+* Reference genome
 
-	* Two vcf files for maternal and paternal imbred line (should be "compatible" with reference genome)
-	  or
-	  Joint vcf file for multiple species, where two lines are presented (should be "compatible" with reference genome)
+* Two vcf files for maternal and paternal imbred line (should be "compatible" with reference genome)
+  or
+  Joint vcf file for multiple species, where two lines are presented (should be "compatible" with reference genome)
 
-	* gtf annotation for the reference genome
+* gtf annotation for the reference genome
 
 # Reference preparation:
 
