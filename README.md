@@ -78,8 +78,17 @@ For different tools there is required an alignment with:
 
 * Multiple read placement
 
+You can either use the product of your own alignment method (read about the correct way in each pipeline section) or:
+```
+prepare_alignments.sh ...
+```
 
-# Pipeline specific bam processing:
+
+# Pipeline specific bam processing (from bam or fastq, all the steps above):
+
+```
+prepare_ASE_tables.sh ...
+```
 
 ## GTEX-style pipeline
 
@@ -92,6 +101,7 @@ For different tools there is required an alignment with:
 ## RSEM
 
 ## Kallisto (for check)
+
 
 # Replicates analysis:
 
