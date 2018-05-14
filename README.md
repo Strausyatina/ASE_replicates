@@ -1,15 +1,15 @@
-** Input:
+# Input:
 
-** Reference preparation:
+# Reference preparation:
 
-* Pseudogenomes:
+## Pseudogenomes:
 
-* F1-cross vcf files:
+## F1-cross vcf files:
 
-* Gene-Transcript-Exon Annotations:
+## Gene-Transcript-Exon Annotations:
 
-** Pipeline-specific fastq aligning:
+# Pipeline-specific fastq aligning:
 
-** Pipeline specific bam processing:
+# Pipeline specific bam processing:
 
-** Replicates analysis:
+# Replicates analysis:
