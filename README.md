@@ -11,30 +11,30 @@
   wget ftp://ftp-mouse.sanger.ac.uk/ref/GRCm38_68.fa
   ```
 
-3. Two vcf files for maternal and paternal imbred line (should be "compatible" with reference genome)
+3. gtf annotation for the reference genome
+
+  > For example, `Mus_musculus.GRCm38.68.gtf.gz` for corresponding reference genome version.
+  ```
+  wget ftp://ftp.ensembl.org/pub/release-68/gtf/mus_musculus/Mus_musculus.GRCm38.68.gtf.gz
+  ```
+
+4. Two vcf files for maternal and paternal imbred line (should be "compatible" with reference genome)
   
   > For example, `129S1_SvImJ.mgp.v5.snps.dbSNP142.vcf.gz` and `CAST_EiJ.mgp.v5.snps.dbSNP142.vcf.gz` for 129S1 and CAST mice lines.
   ```
   wget ftp://ftp-mouse.sanger.ac.uk/current_snps/strain_specific_vcfs/129S1_SvImJ.mgp.v5.snps.dbSNP142.vcf.gz
   wget ftp://ftp-mouse.sanger.ac.uk/current_snps/strain_specific_vcfs/CAST_EiJ.mgp.v5.snps.dbSNP142.vcf.gz
   ```
-  or
+    or
 
-  Joint vcf file for multiple species, where two lines are presented (should be "compatible" with reference genome)
+    Joint vcf file for multiple species, where two lines are presented (should be "compatible" with reference genome)
   
   > For example, `mgp.v5.merged.snps_all.dbSNP142.vcf.gz` for multiple mice lines.
   ```
   wget ftp://ftp-mouse.sanger.ac.uk/current_snps/mgp.v5.merged.snps_all.dbSNP142.vcf.gz
   ```
-  > *Note*: remember about vcf calling by mutect, varscan, etc
+  > *Note: remember about vcf calling by mutect, varscan, etc*
 
-
-5. gtf annotation for the reference genome
-
-  > For example, `Mus_musculus.GRCm38.68.gtf.gz` for corresponding reference genome version.
-  ```
-  wget ftp://ftp.ensembl.org/pub/release-68/gtf/mus_musculus/Mus_musculus.GRCm38.68.gtf.gz
-  ```
 
 # Reference preparation:
 
