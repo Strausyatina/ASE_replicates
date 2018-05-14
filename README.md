@@ -1,17 +1,17 @@
 # Prerequisites as input:
 
-* RNA-seq data for F1-cross, fastq file (single end or paired end)
+1. RNA-seq data for F1-cross, fastq file (single end or paired end)
 
-> For example, `rep_i.fastq` for each of i={1..N} replicates. 
+  > For example, `rep_i.fastq` for each of i={1..N} replicates. 
 
-* Reference genome
+2. Reference genome
 
   > For example, `GRCm38_68.fa`.
   ```
   wget ftp://ftp-mouse.sanger.ac.uk/ref/GRCm38_68.fa
   ```
 
-* Two vcf files for maternal and paternal imbred line (should be "compatible" with reference genome)
+3. Two vcf files for maternal and paternal imbred line (should be "compatible" with reference genome)
   
   > For example, `129S1_SvImJ.mgp.v5.snps.dbSNP142.vcf.gz` and `CAST_EiJ.mgp.v5.snps.dbSNP142.vcf.gz` for 129S1 and CAST mice lines.
   ```
@@ -26,8 +26,10 @@
   ```
   wget ftp://ftp-mouse.sanger.ac.uk/current_snps/mgp.v5.merged.snps_all.dbSNP142.vcf.gz
   ```
+  > *Note*: remember about vcf calling by mutect, varscan, etc
 
-* gtf annotation for the reference genome
+
+5. gtf annotation for the reference genome
 
   > For example, `Mus_musculus.GRCm38.68.gtf.gz` for corresponding reference genome version.
   ```
